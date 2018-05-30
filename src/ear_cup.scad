@@ -1,11 +1,11 @@
 //$fn=100;
 
 // Ear cup
-module ear_cup(){
+module ear_cup(width, height){
     // Exteranl part of cup
     external_part_depth = 70;
-    height=160;
-    width=120;
+    //height=160;
+    //width=120;
     
     difference(){        
         union(){    
@@ -30,4 +30,3 @@ module ear_cup(){
     circle(external_part_depth);
 
 }
-
